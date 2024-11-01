@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Convidados</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <img src="image.png" alt="Logotipo CEFLIn" class="logo">
+        <h1>I CEFLIn - Congresso de Estudos Formais em Linguística e Interfaces</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="programacao.html">Programação</a></li>
+                <li><a href="convidados.html">Convidados</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="publicacoes.html">Publicações</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="projetos.html">Projetos</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="content-box">
+        <div class="guest-gallery">
+            <div class="guest" onclick="showBio('Convidado 1')"><img src="guest1.jpg" alt="Convidado 1"><p>Convidado 1</p></div>
+            <div class="guest" onclick="showBio('Convidado 2')"><img src="guest2.jpg" alt="Convidado 2"><p>Convidado 2</p></div>
+            <div class="guest" onclick="showBio('Convidado 3')"><img src="guest3.jpg" alt="Convidado 3"><p>Convidado 3</p></div>
+            <div class="guest" onclick="showBio('Convidado 4')"><img src="guest4.jpg" alt="Convidado 4"><p>Convidado 4</p></div>
+            <div class="guest" onclick="showBio('Convidado 5')"><img src="guest5.jpg" alt="Convidado 5"><p>Convidado 5</p></div>
+            <div class="guest" onclick="showBio('Convidado 6')"><img src="guest6.jpg" alt="Convidado 6"><p>Convidado 6</p></div>
+        </div><div id="bio-popup" class="bio-popup"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 I CEFLIn - Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
